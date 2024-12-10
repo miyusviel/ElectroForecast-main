@@ -1,0 +1,332 @@
+.iconButton {
+    width: 44px;
+    border-radius: 32px;
+    background-color: #f5f5f5;
+    border: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    height: 44px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+}
+.icon {
+    width: 23.3px;
+    position: relative;
+    height: 35px;
+}
+.figma {
+    width: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.block {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.electroforecast {
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 120%;
+    font-weight: 600;
+}
+.navigationPillList {
+    flex: 1;
+    height: 32px;
+}
+.button1 {
+    position: relative;
+    line-height: 100%;
+}
+.button {
+    flex: 1;
+    border-radius: 8px;
+    background-color: #e3e3e3;
+    border: 1px solid #767676;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+}
+.button2 {
+    flex: 1;
+    border-radius: 8px;
+    background-color: #2c2c2c;
+    border: 1px solid #2c2c2c;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    color: #f5f5f5;
+}
+.headerAuth {
+    width: 178px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    font-size: 16px;
+    color: #1e1e1e;
+}
+.header {
+    align-self: stretch;
+    background-color: #fff;
+    border-bottom: 1px solid #d9d9d9;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 32px;
+    gap: 0px 24px;
+    color: #000;
+}
+.prophetHeader1Icon {
+    width: 1202px;
+    position: relative;
+    height: 282px;
+    object-fit: cover;
+}
+.section {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-image: url('/src/images/homepage/Section.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.title {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.03em;
+    line-height: 120%;
+}
+.subtitle {
+    align-self: stretch;
+    position: relative;
+    font-size: 32px;
+    line-height: 120%;
+    color: #fff;
+}
+.textContentTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.button4 {
+    flex: 1;
+    border-radius: 8px;
+    background-color: #2c2c2c;
+    border: 1px solid #2c2c2c;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+}
+.buttonGroup {
+    width: 240px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 16px;
+    color: #f5f5f5;
+}
+.heroActions {
+    align-self: stretch;
+    background-color: #3a5997;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 60px 24px;
+    gap: 61px;
+    text-align: center;
+    font-size: 72px;
+}
+.manageEnergyConsumption {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 120%;
+    font-weight: 600;
+    white-space: pre-wrap;
+}
+.figma1 {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.title1 {
+    width: 262px;
+    height: 83px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+    min-width: 240px;
+    font-size: 24px;
+    color: #000;
+}
+.textStrong1 {
+    position: relative;
+    line-height: 140%;
+    font-weight: 600;
+}
+.textStrong {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.title2 {
+    width: 89px;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 0px 16px;
+    box-sizing: border-box;
+}
+.listItem {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    line-height: 140%;
+}
+.textLinkListItem {
+    width: 89px;
+    position: relative;
+    height: 22px;
+    display: none;
+}
+.textLinkList {
+    width: 262px;
+    height: 276px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+}
+.title3 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 0px 16px;
+}
+.textLinkListItem7 {
+    width: 89px;
+    position: relative;
+    height: 22px;
+}
+.developmentFeatures {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    line-height: 140%;
+    display: none;
+}
+.textLinkList1 {
+    width: 262px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+}
+.footer {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+    border-top: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    width: 1200px;
+    height: 254px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 32px 32px 160px;
+    gap: 16px;
+}
+.xLogoIcon {
+    width: 24px;
+    position: relative;
+    height: 24px;
+}
+.logoInstagramIcon {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.linkedinIcon {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+}
+.buttonList {
+    position: absolute;
+    top: 243px;
+    left: 547px;
+    width: 106px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.footerParent {
+    width: 1200px;
+    position: relative;
+    height: 308px;
+    font-size: 16px;
+}
+.homePage {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 24px;
+    color: #1e1e1e;
+    font-family: Inter;
+}
+
